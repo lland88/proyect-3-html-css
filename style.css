@@ -13,6 +13,7 @@ section {
 .imagen {
   display: flex;
 }
+
 .mobile {
   width: 327px;
   height: 240px;
@@ -68,4 +69,61 @@ h3 {
   font-weight: 400;
   text-align: center;
   margin-top: -15px;
+}
+
+h4 {
+  color: hsl(277, 64%, 61%);
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+@media (min-width: 720px) {
+  section {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .imagen {
+  }
+  .mobile {
+    display: none;
+  }
+  .desk {
+    display: block;
+    width: 450px;
+    height: 371.6px;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+  }
+  .contenido {
+    width: 40vw;
+    max-width: 450px;
+    height: 371.6px;
+    min-height: 200px;
+    display: flex;
+    border-bottom-right-radius: 0%;
+    border-top-left-radius: 5%;
+  }
+  .stats {
+    display: flex;
+    width: 35vw;
+    max-width: 400px;
+    height: 100px;
+    justify-content: space-around;
+  }
+  .whitefont {
+    text-align: center;
+    margin-top: 40px;
+  }
+  span {
+  }
+  h1 {
+  }
+  h2 {
+    margin: 20px 20px;
+    text-align: start;
+  }
+  h3 {
+  }
+  h4 {
+  }
 }
